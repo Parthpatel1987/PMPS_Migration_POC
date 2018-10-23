@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>POST</http_method>
+        <name>MergeContract</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var contract = request.body.data;
+	
+	// Process Companies from Device Data
+	var company = contract.Company;
+	
+	var companySysID = processCompanies(company);
+	
+	var location = contract.Location;
+	
+	var locationSysID = null;
+	if(location && companySysID){
+		locationSysID = generateLocationHierarchy(location,companySysID);
+	}
+	
+	if(contract && companySysID){
+		processContract(contract, companySysID,locationSysID);
+		
+		var Contact = contract.Contact;
+		
+		var userSysID = processUser(Contact,companySysID,locationSysID);
+		
+		if(userSysID){
+			updateCompanyUser(companySysID,userSysID);
+			updateLocationUser(locationSysID,userSysID);
+		}
+	}
+	
+	response.setBody({Company:companySysID,Location:locationSysID});
+
+})(request, response);
+
+function processCompanies(company){
+	var companySysID = null;
+	var grCompany = new GlideRecord('x_282518_pmps_migr_company');
+	grCompany.addQuery('name',company.Name);
+	grCompany.query();
+	var rowCount = grCompany.getRowCount();
+	
+	if(rowCount == 0){
+		grCompany = new GlideRecord('x_282518_pmps_migr_company');
+	
+		grCompany.initialize();
+		grCompany.name = company.Name;
+		grCompany.notes = company.Notes;
+		
+		grCompany.insert();
+		
+		companySysID = grCompany.sys_id;
+	}
+	else if(rowCount == 1){
+		while (grCompany.next()) {
+		
+			grCompany.name = company.Name;
+			grCompany.notes = company.Notes;
+
+			grCompany.update();
+			
+			companySysID = grCompany.sys_id;
+		}
+	}
+	
+	return companySysID;
+}
+
+function generateLocationHierarchy(location,company){
+	var locationHierarchy = ["Country", "State", "City", "Area", "Street", "AddressLine1"];
+	
+	var parent = null;
+	
+	var generatedLocationField = {
+		"Street":null,
+		"Area":null,
+		"City":null,
+		"State":null,
+		"Country":null
+	};
+	for (i = 0; i < locationHierarchy.length; i++) {
+		var name = location[locationHierarchy[i]];
+
+		if(name){
+			// check in DB if exitst
+			var grLocation = new GlideRecord('x_282518_pmps_migr_location');
+			grLocation.addQuery('name',name);
+			grLocation.query();
+			var rowCount = grLocation.getRowCount();
+
+			if(rowCount == 0){
+				var grNewLocation = new GlideRecord('x_282518_pmps_migr_location');
+				grNewLocation.initialize();
+				
+				grNewLocation.name= name;
+				grNewLocation.street=generatedLocationField.Street;
+				grNewLocation.area=generatedLocationField.Area;
+				grNewLocation.city=generatedLocationField.City;
+				grNewLocation.state=generatedLocationField.State;
+				grNewLocation.country=generatedLocationField.Country,
+				grNewLocation.parent=parent;
+				if(i == locationHierarchy.length-1 && company){
+					grNewLocation.company = company;					
+				}
+				
+				grNewLocation.insert();
+				
+				parent = grNewLocation.sys_id;
+			}
+			else if (rowCount == 1){
+				while (grLocation.next()) { 
+					//grLocation.name= name;
+					grLocation.street=generatedLocationField.Street;
+					grLocation.area=generatedLocationField.Area;
+					grLocation.city=generatedLocationField.City;
+					grLocation.state=generatedLocationField.State;
+					grLocation.country=generatedLocationField.Country,
+					grLocation.parent=parent;
+					if(i == locationHierarchy.length-1 && company){
+						grLocation.company = company;
+					}
+					grLocation.update();
+
+					parent = grLocation.sys_id;
+				}
+			}		
+
+			generatedLocationField[locationHierarchy[i]] = name;
+		}
+	}
+	
+	return parent;
+}
+
+function processContract(contract,company,location){
+	
+	var grContract = new GlideRecord('x_282518_pmps_migr_service_contract');
+	grContract.addQuery('vendor_contract',contract.ContractNumber);
+	grContract.query();
+	var rowCount = grContract.getRowCount();
+	
+	if(rowCount == 0){
+		grContract = new GlideRecord('x_282518_pmps_migr_service_contract');
+	
+		grContract.initialize();
+		grContract.vendor_contract = contract.ContractNumber;
+		grContract.contracttype = contract.ContractType;
+		grContract.active = contract.Active;
+		grContract.description = contract.Description;
+		grContract.po_number = contract.PONumber;
+		grContract.customer = company;
+		grContract.location = location;
+		
+		grContract.insert();
+	}
+	else if(rowCount == 1){				
+		while (grContract.next()) { 
+			grContract.contracttype = contract.ContractType;
+			grContract.active = contract.Active;
+			grContract.description = contract.Description;
+			grContract.po_number = contract.PONumber;
+			grContract.customer = company;
+			grContract.location = location;
+
+			grContract.update();
+		}
+	}
+}
+
+function processUser(user, company, location){
+	var userSysID=null;
+	var grUser = new GlideRecord('x_282518_pmps_migr_user');
+	grUser.addQuery('email',user.Email);
+	grUser.query();
+	var rowCount = grUser.getRowCount();
+	
+	if(rowCount == 0){
+		grUser = new GlideRecord('x_282518_pmps_migr_user');
+	
+		grUser.initialize();
+		grUser.user_name = user.UserID;
+		grUser.first_name = user.FirstName;
+		grUser.last_name = user.LastName;
+		grUser.active = user.Active;
+		grUser.employee_number = user.EmaployeeNumber;
+		grUser.mobile_phone = user.Mobile;
+		grUser.email = user.Email;
+		grUser.company = company;
+		grUser.location = location;
+		
+		grUser.insert();
+		
+		userSysID = grUser.sys_id;
+	}
+	else if(rowCount == 1){				
+		while (grUser.next()) { 
+			//grUser.user_name = user.UserID;
+			//grUser.first_name = user.FirstName;
+			//grUser.last_name = user.LastName;
+			//grUser.active = user.Active;
+			//grUser.employee_number = user.EmaployeeNumber;
+			grUser.mobile_phone = user.Mobile;
+			//grUser.email = user.Email;
+			//grUser.company = company;
+			//grUser.location = location;
+
+			grUser.update();
+			
+			userSysID = grUser.sys_id;
+		}
+	}
+	
+	return userSysID;
+}
+
+function updateCompanyUser(company,user){
+	var grCompany = new GlideRecord('x_282518_pmps_migr_company');
+	grCompany.addQuery('sys_id',company);
+	grCompany.query();
+	var rowCount = grCompany.getRowCount();
+	
+	if(rowCount == 1){				
+		while (grCompany.next()) { 
+			
+			grCompany.contact = user;
+
+			grCompany.update();
+		}
+	}
+}
+
+function updateLocationUser(location,user){
+	var grCompany = new GlideRecord('x_282518_pmps_migr_location');
+	grCompany.addQuery('sys_id',location);
+	grCompany.query();
+	var rowCount = grCompany.getRowCount();
+	
+	if(rowCount == 1){				
+		while (grCompany.next()) { 
+			
+			grCompany.contact = user;
+
+			grCompany.update();
+		}
+	}
+}]]></operation_script>
+        <operation_uri>/api/x_282518_pmps_migr/asset_migration/Contract</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/Contract</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-15 15:51:51</sys_created_on>
+        <sys_id>52f26163db4523009e18bd51399619ec</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name>MergeContract</sys_name>
+        <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+        <sys_update_name>sys_ws_operation_52f26163db4523009e18bd51399619ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-22 07:04:37</sys_updated_on>
+        <web_service_definition display_value="Asset Migration">04d2ed23db4523009e18bd51399619f2</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

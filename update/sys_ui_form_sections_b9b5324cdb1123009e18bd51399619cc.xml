@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="b9b5324cdb1123009e18bd51399619cc" sys_domain="global" table="x_282518_pmps_migr_company" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>71b5764cdb1123009e18bd5139961973</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_282518_pmps_migr_company" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">b9b5324cdb1123009e18bd51399619cc</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">bdb5764cdb1123009e18bd5139961970</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35b5764cdb1123009e18bd5139961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_282518_pmps_migr_company" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">b9b5324cdb1123009e18bd51399619cc</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f9b5764cdb1123009e18bd5139961975</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_282518_pmps_migr_company" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">b9b5324cdb1123009e18bd51399619cc</sys_ui_form>
+            <sys_ui_section caption="Information" display_value="Information" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5764cdb1123009e18bd5139961973</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:35</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_282518_pmps_migr_company</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9b5324cdb1123009e18bd51399619cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_282518_pmps_migr_company</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+            <sys_update_name>sys_ui_form_sections_b9b5324cdb1123009e18bd51399619cc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <view display_value="Vendor" name="vendor">c12b7492d7010100fceaa6859e6103e6</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

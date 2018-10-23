@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="General" section_id="75b5324cdb1123009e18bd51399619cf" sys_domain="global" table="x_282518_pmps_migr_company" version="3" view="vendor">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>b1b5764cdb1123009e18bd513996196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>street</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>b9b5764cdb1123009e18bd513996196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>city</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>3db5764cdb1123009e18bd513996196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>bdb5764cdb1123009e18bd513996196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>zip</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>31b5764cdb1123009e18bd513996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>country</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>b1b5764cdb1123009e18bd513996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>35b5764cdb1123009e18bd513996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>stock_symbol</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>b5b5764cdb1123009e18bd513996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>latitude</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>39b5764cdb1123009e18bd513996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>longitude</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>b9b5764cdb1123009e18bd513996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>website</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>3db5764cdb1123009e18bd513996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>banner_image</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>bdb5764cdb1123009e18bd513996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>banner_text</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>31b5764cdb1123009e18bd5139961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_id>b1b5764cdb1123009e18bd5139961970</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_company" sys_domain="global" view="c12b7492d7010100fceaa6859e6103e6">75b5324cdb1123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>General</caption>
+            <header>false</header>
+            <name>x_282518_pmps_migr_company</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75b5324cdb1123009e18bd51399619cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>General</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+            <sys_update_name>sys_ui_section_75b5324cdb1123009e18bd51399619cf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:34</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Vendor" name="vendor">c12b7492d7010100fceaa6859e6103e6</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

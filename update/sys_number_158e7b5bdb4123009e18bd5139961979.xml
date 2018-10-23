@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_282518_pmps_migr_company">x_282518_pmps_migr_company</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>PMPS_COM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-15 08:31:12</sys_created_on>
+        <sys_id>158e7b5bdb4123009e18bd5139961979</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PMPS_COM</sys_name>
+        <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+        <sys_update_name>sys_number_158e7b5bdb4123009e18bd5139961979</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-15 08:31:12</sys_updated_on>
+    </sys_number>
+</record_update>

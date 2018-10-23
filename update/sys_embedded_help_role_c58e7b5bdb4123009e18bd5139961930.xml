@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_282518_pmps_migr.company_user" name="x_282518_pmps_migr.company_user">c58e7b5bdb4123009e18bd513996192e</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-15 08:31:12</sys_created_on>
+        <sys_id>c58e7b5bdb4123009e18bd5139961930</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c58e7b5bdb4123009e18bd513996192e</sys_name>
+        <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+        <sys_update_name>sys_embedded_help_role_c58e7b5bdb4123009e18bd5139961930</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-15 08:31:12</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

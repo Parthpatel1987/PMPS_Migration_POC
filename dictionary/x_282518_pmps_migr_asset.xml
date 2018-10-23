@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="alm_asset" label="Asset" max_length="40" name="x_282518_pmps_migr_asset" type="collection">
+        <element label="CurrentSticker" max_length="255" name="currentsticker" type="string"/>
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="DeviceID" max_length="50" name="deviceid" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Renewal/Extension" section_id="24c5364cdb1123009e18bd5139961926" sys_domain="global" table="x_282518_pmps_migr_service_contract" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewable</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>e0c5364cdb1123009e18bd5139961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_options</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>64c5364cdb1123009e18bd5139961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_date</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>e4c5364cdb1123009e18bd5139961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_end_date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>68c5364cdb1123009e18bd5139961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>e8c5364cdb1123009e18bd5139961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>renewal_contact</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>6cc5364cdb1123009e18bd5139961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_adjustment_type</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>ecc5364cdb1123009e18bd5139961927</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_adjustment</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>60c5364cdb1123009e18bd5139961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_adjustment_percentage</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>e0c5364cdb1123009e18bd5139961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_id>64c5364cdb1123009e18bd5139961928</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Renewal/Extension" display_value="Renewal/Extension" name="x_282518_pmps_migr_service_contract" sys_domain="global" view="Default view">24c5364cdb1123009e18bd5139961926</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Renewal/Extension</caption>
+            <header>false</header>
+            <name>x_282518_pmps_migr_service_contract</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-17 11:08:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>24c5364cdb1123009e18bd5139961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Renewal/Extension</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+            <sys_update_name>sys_ui_section_24c5364cdb1123009e18bd5139961926</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-17 11:08:45</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

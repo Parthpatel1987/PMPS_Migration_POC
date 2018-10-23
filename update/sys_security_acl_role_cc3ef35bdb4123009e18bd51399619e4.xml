@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-15 08:29:45</sys_created_on>
+        <sys_id>cc3ef35bdb4123009e18bd51399619e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_282518_pmps_migr_location.x_282518_pmps_migr.location_user</sys_name>
+        <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+        <sys_security_acl display_value="x_282518_pmps_migr_location">003ef35bdb4123009e18bd51399619e2</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_cc3ef35bdb4123009e18bd51399619e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-15 08:29:45</sys_updated_on>
+        <sys_user_role display_value="x_282518_pmps_migr.location_user" name="x_282518_pmps_migr.location_user">043ef35bdb4123009e18bd51399619c9</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
