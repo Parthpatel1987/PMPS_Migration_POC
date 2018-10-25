@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Get Assets</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here
+	var responseObj = {};
+	var allDevices=[];
+	var pathParamsVar = request.pathParams;
+	var companyid = pathParamsVar.companyid;
+	
+	//Get a GlideRecord to start things up
+    var grAsset = new GlideRecord('x_282518_pmps_migr_asset');
+	grAsset.addQuery('company',companyid);
+	
+	grAsset.query();
+	while (grAsset.next()) { 
+		var device = {
+			Description: grAsset.getValue('description'),
+			DeviceID: grAsset.getValue('deviceid'),
+			SerialNumber: grAsset.getValue('serial_number'),
+			CurrentSticker: grAsset.getValue('currentsticker'),
+			AssetTag: grAsset.getValue('asset_tag'),
+			sys_id: grAsset.getValue('sys_id')
+		};
+		
+		// add code here to process the incident record 
+		allDevices.push(device);
+	}
+	
+	responseObj.devices = allDevices;
+	
+	response.setBody(responseObj);
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_282518_pmps_migr/asset_migration/Devices/{companyid}</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/Devices/{companyid}</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-23 06:29:56</sys_created_on>
+        <sys_id>9d3c2086dbd923009e18bd513996198a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Get Assets</sys_name>
+        <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+        <sys_update_name>sys_ws_operation_9d3c2086dbd923009e18bd513996198a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-23 06:34:39</sys_updated_on>
+        <web_service_definition display_value="Asset Migration">04d2ed23db4523009e18bd51399619f2</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

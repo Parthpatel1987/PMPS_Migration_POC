@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Identifies the remote instance selected as the current parent for Team Development</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>true</is_private>
+        <name>glide.apps.hub.current</name>
+        <read_roles/>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-25 08:19:21</sys_created_on>
+        <sys_id>c9bb97eedb1123009e18bd51399619e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>glide.apps.hub.current</sys_name>
+        <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+        <sys_update_name>sys_properties_c9bb97eedb1123009e18bd51399619e0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-25 08:19:21</sys_updated_on>
+        <type>string</type>
+        <value>6022e41bdb311740536ad5b0cf961960</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=c9bb97eedb1123009e18bd51399619e0"/>
+</record_update>
