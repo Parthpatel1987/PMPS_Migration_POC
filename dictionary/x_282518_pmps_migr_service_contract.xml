@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="ast_contract" label="Service Contract" max_length="40" name="x_282518_pmps_migr_service_contract" type="collection">
-        <element label="Customer" max_length="32" name="customer" reference="x_282518_pmps_migr_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Customer" max_length="32" name="customer" reference="x_282518_pmps_migr_company" type="reference"/>
         <index name="index">
             <element name="customer"/>
         </index>

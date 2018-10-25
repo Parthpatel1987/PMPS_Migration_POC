@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f7182f6adb5123009e18bd5139961924" sys_domain="global" table="x_282518_pmps_migr_asset" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-25 09:13:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>77182f6adb5123009e18bd5139961925</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_282518_pmps_migr_asset" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">f7182f6adb5123009e18bd5139961924</sys_ui_form>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">0ef66e1edb5123009e18bd513996195f</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-25 09:13:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-25 09:13:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>33182f6adb5123009e18bd5139961926</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_282518_pmps_migr_asset" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">f7182f6adb5123009e18bd5139961924</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">42f66e1edb5123009e18bd51399619cf</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-25 09:13:36</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-25 09:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7182f6adb5123009e18bd5139961958</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_282518_pmps_migr_asset" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">f7182f6adb5123009e18bd5139961924</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">82f66e1edb5123009e18bd51399619cb</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-25 09:13:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-25 09:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4c282f6adb5123009e18bd513996196f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_282518_pmps_migr_asset" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">f7182f6adb5123009e18bd5139961924</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">86f66e1edb5123009e18bd5139961965</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-25 09:13:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-25 09:13:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c8282f6adb5123009e18bd513996197a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_282518_pmps_migr_asset" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">f7182f6adb5123009e18bd5139961924</sys_ui_form>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_282518_pmps_migr_asset" sys_domain="global" view="Default view">c2f66e1edb5123009e18bd5139961963</sys_ui_section>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-25 09:13:37</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_282518_pmps_migr_asset</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>system</sys_created_by>
+            <sys_created_on>2018-10-25 09:13:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f7182f6adb5123009e18bd5139961924</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_282518_pmps_migr_asset</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="PMPS Migration POC" source="x_282518_pmps_migr">d08b53d3db0123009e18bd5139961943</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="PMPS Migration POC">d08b53d3db0123009e18bd5139961943</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f7182f6adb5123009e18bd5139961924</sys_update_name>
+            <sys_updated_by>system</sys_updated_by>
+            <sys_updated_on>2018-10-25 09:13:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
